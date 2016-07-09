@@ -7,5 +7,5 @@ Vagrant.configure(2) do |config|
   config.vm.provider "virtualbox" do |v|
     v.memory = 2048
   end
-  config.vm.synced_folder ".", "/mail_app", type: "nfs"
+  config.vm.synced_folder ".", "/mail_app" #, type: "nfs"
 end
