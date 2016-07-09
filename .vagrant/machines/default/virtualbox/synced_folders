@@ -1,0 +1,1 @@
+{"virtualbox":{},"nfs":{"/mail_app":{"type":"nfs","guestpath":"/mail_app","hostpath":"/Users/ooishishunsuke/mail_app","disabled":false,"__vagrantfile":true,"map_uid":501,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"1116354711"}}}
