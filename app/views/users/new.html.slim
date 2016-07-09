@@ -1,37 +1,31 @@
-.wrapper
-  .container
-    h1 New user
+section#contact.animated.fadeInRight
+  .content
+    .m-t
+    h2 REVOLLET・メール送信フォーム
+    hr
+    .m-t-sm
+    p
+    | 本日はお越しいただきありがとうございます。
+    br
+    | お手数ですが、下記フォームにお客様の情報をご入力ください。
+    br
+    | ご登録いただいたメールアドレスへ本日のご説明内容を記したPDFファイルを送信させていただきます。
+    .m-t-sm
+    #form
+      = form_for @user do |f|
+        - if @user.errors.any?
+          #error_explanation
+            h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+            ul
+              - @user.errors.full_messages.each do |message|
+                li = message
 
-    = form_for @user do |f|
-      - if @user.errors.any?
-        #error_explanation
-          h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
-          ul
-            - @user.errors.full_messages.each do |message|
-              li = message
-
-      .field
-        = f.label :name
-        = f.text_field :name
-      .field
-        = f.label :kana
-        = f.text_field :kana
-      .field
-        = f.label :email
-        = f.text_field :email
-      .field
-        = f.label :company
+        span お名前
+        = f.text_field :name, required: true
+        span カナ
+        = f.text_field :kana, required: true
+        span email
+        = f.email_field :email, required: true
+        span 会社名
         = f.text_field :company
-      .actions = f.submit
-
-  ul.bg-bubbles
-    li
-    li
-    li
-    li
-    li
-    li
-    li
-    li
-    li
-    li
+        = f.submit "Send", class: 'submit'

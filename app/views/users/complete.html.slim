@@ -1,0 +1,20 @@
+section#contact.animated.fadeInRight
+  .content
+    .m-t
+    h2 登録完了
+    hr
+    .m-t-m
+    p
+    | ご登録ありがとうございました。
+    br
+    br
+    | お送りしたメールのご確認をお願い致します。
+    .m-t-sm
+
+javascript:
+  mnt = 5; // 何秒後に移動するか？
+  url = "http://192.168.33.51/users/new"; // 移動するアドレス
+  function jumpPage() {
+    location.href = url;
+  }
+  setTimeout("jumpPage()",mnt*1000)

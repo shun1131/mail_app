@@ -706,3 +706,2025 @@ Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0
 Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 13:58:06 +0900
 Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:08:10 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (48.5ms)
+Completed 500 Internal Server Error in 367ms (ActiveRecord: 0.8ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221611303900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (20.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.6ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:13:10 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221611303900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.8ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:16:44 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221611303900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:16:45 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221611303900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.2ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:17:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4435304584527243014_70221477935980'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.9ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.6ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:17:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 56ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4435304584527243014_70221636063720'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.4ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:19:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (3.7ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:19:51 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4435304584527243014_70221482538780'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.4ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:23:03 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 32ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221476363900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.7ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:23:05 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221476363900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.5ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.3ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:23:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221476363900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.9ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:28:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms)
+
+LoadError (cannot load such file -- sass):
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___4435304584527243014_70221476363900'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.1ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:29:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (47.9ms)
+Completed 200 OK in 471ms (Views: 462.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:29:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (8.8ms)
+Completed 200 OK in 45ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:32:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (13.8ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:32:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (20.2ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:22 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (19.4ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (10.7ms)
+Completed 200 OK in 50ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:33:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (8.3ms)
+Completed 200 OK in 49ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (10.5ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:34:56 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:35:37 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (8.0ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:35:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:36:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/mail_app/app/views/users/new.html.slim:22: syntax error, unexpected tLABEL, expecting '='
+...ndent_dynamic((f.submit, class: 'submit'), false, "\n      "...
+...                               ^):
+  app/views/users/new.html.slim:22: syntax error, unexpected tLABEL, expecting '='
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (28.3ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:36:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.6ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/mail_app/app/views/users/new.html.slim:22: syntax error, unexpected ',', expecting :: or '[' or '.'
+...nt_dynamic((f.submit, "送信", class: 'submit'), false, "\n...
+...                               ^):
+  app/views/users/new.html.slim:22: syntax error, unexpected ',', expecting :: or '[' or '.'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (27.2ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:37:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.1ms)
+Completed 200 OK in 30ms (Views: 29.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:37:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.9ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-61995e0da832b948814c4208af982a0df63f42ce4cf6e0765c9afa0e8196ccca.css?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:38:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3f7119245f8a8bf152c896dc0b93d75b9e6516d8a164616038ef55d190680d92.css?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:41:24 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:43:37 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.8ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-6715a8844daa5019eb8167c30d5424b598fff69dd6fe0ee1bf1fa957da32badb.css?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:43:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:44:41 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (10.0ms)
+Completed 200 OK in 64ms (Views: 63.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-6715a8844daa5019eb8167c30d5424b598fff69dd6fe0ee1bf1fa957da32badb.css?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:44:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 14:52:30 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eVd9ueVQgnKya6ovzw9nKtkXx711vjIDwLi40xuI7ZO9EwBLolwpOsV5UA+c+wNO7YXGv6dILhKXAQuONdsPFw==", "user"=>{"name"=>"", "kana"=>"", "email"=>"", "company"=>""}, "commit"=>"Send"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('', '', '', '', '2016-07-09 05:52:30', '2016-07-09 05:52:30')[0m
+  [1m[35m (0.9ms)[0m  COMMIT
+Redirected to http://192.168.33.51/users/1
+Completed 302 Found in 30ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/users/1" for 192.168.33.1 at 2016-07-09 14:52:30 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered users/show.html.slim within layouts/application (12.9ms)
+Completed 200 OK in 106ms (Views: 98.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users" for 192.168.33.1 at 2016-07-09 14:53:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.slim within layouts/application (6.6ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:53:05 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (12.8ms)
+Completed 200 OK in 53ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (7.2ms)
+Completed 200 OK in 94ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-b5f7f8b3ae5aad6b35c03d71643d86f11040733829ece4a4e3895a8d52d0ca37.css?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 14:59:36 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.8ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-b5f7f8b3ae5aad6b35c03d71643d86f11040733829ece4a4e3895a8d52d0ca37.css?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (11.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:00:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.5ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-ea3a2807f3739ba73ebea11404b1d647b96e39b3915406cea6ae96de3e1b6ac4.css?body=1" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:03:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:33 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.3ms)
+Completed 200 OK in 72ms (Views: 71.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-b0f77c8e256deeaf7f1473e094e0e70c17157b75e1d05c1c9cab8f3b2a3a6d0a.css?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:03:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (11.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (3.5ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-ff887108fbe55db56caa5a3092b5b134a7c2b22deada70b1b3bf1f8086689654.css?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:04:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (12.7ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-f2a14fd92d763743d3d141fe4dfa49616e70553abf2802772793dc478897a7e9.css?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:06:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-d20ca5bd94a560fdce41799a23997762131aac002c4323ca84ec50d6a2fdcece.css?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:06:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-0bd3b9e1ef648047f50141b6df9df8cb3d3d549f3a141ca9e32acf9f710a0c72.css?body=1" for 192.168.33.1 at 2016-07-09 15:07:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:07:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (8.6ms)
+Completed 200 OK in 66ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-595adaea95933b00e804b615401e879019cca36fddf56f3add8e150f34fb581c.css?body=1" for 192.168.33.1 at 2016-07-09 15:07:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-595adaea95933b00e804b615401e879019cca36fddf56f3add8e150f34fb581c.css?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:09:02 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:14:27 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (34.8ms)
+Completed 200 OK in 181ms (Views: 172.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-bf6d13348c30d52c952f06feee6c4dbf19c1ec46ed9c7fb273d3a3676fb88188.css?body=1" for 192.168.33.1 at 2016-07-09 15:14:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.5ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-830e5f0e1d3e9e872856d0d96a1e2594500cb335c27c3b148c8766cf56732e87.css?body=1" for 192.168.33.1 at 2016-07-09 15:17:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-313a236badabaec2d94b6f6efbc73961c16aa3366dbc023728ad220d2b1620fe.css?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:17:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:18:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (11.3ms)
+Completed 200 OK in 92ms (Views: 91.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-1becf0b6a8427d593701a86542a5dd9cef301d106ce2ff644e95a2ce1d5ce859.css?body=1" for 192.168.33.1 at 2016-07-09 15:18:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:18:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:18:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:18:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:18:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:18:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (13.6ms)
+Completed 200 OK in 56ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-1becf0b6a8427d593701a86542a5dd9cef301d106ce2ff644e95a2ce1d5ce859.css?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:21:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (13.3ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-2e351552b170e84474767966e6be90fd6103c2f7b3ce80c95da9d8afec9c47ab.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-5448de5cdebbd9516c9580c3af1de7b1ba3fea13a2cfb128383766e6c75f0d7e.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:49 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (2.4ms)
+Completed 200 OK in 60ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-eaadbcee092ceab7395159388279835eb8eb76a5a918910c4f24e3dc4c843d2b.css?body=1" for 192.168.33.1 at 2016-07-09 15:22:57 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.8ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-eaadbcee092ceab7395159388279835eb8eb76a5a918910c4f24e3dc4c843d2b.css?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:23 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:23:58 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.9ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-de280bdcf206f9c68c1bd7015a4235b4ef119563ae537c8f79eadc93a43480dc.css?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:23:59 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.0ms)
+Completed 200 OK in 63ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-7d6571a6bf130d8215fd33c902b3a7d13c05aed8588d8c4b522bf35cbf37392a.css?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:25:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (5.7ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-7d6571a6bf130d8215fd33c902b3a7d13c05aed8588d8c4b522bf35cbf37392a.css?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:26:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.7ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-7d6571a6bf130d8215fd33c902b3a7d13c05aed8588d8c4b522bf35cbf37392a.css?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:26:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-5d87ddafe4477488baf2161b0d8367957171a156830e1c0472a6b15120f3fe3d.css?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:28:21 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.6ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-5d87ddafe4477488baf2161b0d8367957171a156830e1c0472a6b15120f3fe3d.css?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:30:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (9.0ms)
+Completed 200 OK in 47ms (Views: 46.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.self-5d87ddafe4477488baf2161b0d8367957171a156830e1c0472a6b15120f3fe3d.css?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:31:47 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:34:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p/IfMGe/nIGSVTfaKaX6nxIEYdwy7/zkZuEhkxmjfg1jtmLCILM3yeVHzfp6UZ77JpZg3uAZ4PUxWJLON/CciQ==", "user"=>{"name"=>"ほげほげ", "kana"=>"ホゲ", "email"=>"hoge@gmail.com", "company"=>"株式会社ほげ"}, "commit"=>"Send"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('ほげほげ', 'ホゲ', 'hoge@gmail.com', '株式会社ほげ', '2016-07-09 06:34:52', '2016-07-09 06:34:52')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+Redirected to http://192.168.33.51/users/2
+Completed 302 Found in 6ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/users/2" for 192.168.33.1 at 2016-07-09 15:34:52 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/show.html.slim within layouts/application (5.4ms)
+Completed 200 OK in 43ms (Views: 37.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/users" for 192.168.33.1 at 2016-07-09 15:35:04 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/index.html.slim within layouts/application (6.0ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:35:29 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:37:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IwnSw5T4XiPanP4yATHln6LCRJ0xIMNQ8Vb5wZzvw0nnTa8x0/T1a62OBBJSxYH7llBFn+PW30Gm70qcsrwhzQ==", "user"=>{"name"=>"あ", "kana"=>"あ", "email"=>"a@a", "company"=>"a"}, "commit"=>"Send"}
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('あ', 'あ', 'a@a', 'a', '2016-07-09 06:37:38', '2016-07-09 06:37:38')
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to 
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 2.2ms)
+
+NoMethodError (undefined method `new_url' for #<UsersController:0x007f87f5fee208>):
+  app/controllers/users_controller.rb:29:in `create'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.9ms)
+
+
+Started GET "/rails/info/routes" for 192.168.33.1 at 2016-07-09 15:38:00 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:38:17 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IwnSw5T4XiPanP4yATHln6LCRJ0xIMNQ8Vb5wZzvw0nnTa8x0/T1a62OBBJSxYH7llBFn+PW30Gm70qcsrwhzQ==", "user"=>{"name"=>"あ", "kana"=>"あ", "email"=>"a@a", "company"=>"a"}, "commit"=>"Send"}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('あ', 'あ', 'a@a', 'a', '2016-07-09 06:38:18', '2016-07-09 06:38:18')[0m
+  [1m[35m (0.6ms)[0m  COMMIT
+Redirected to http://192.168.33.51/users/new
+Completed 302 Found in 10ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-5d87ddafe4477488baf2161b0d8367957171a156830e1c0472a6b15120f3fe3d.css?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:38:18 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:38:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"c9YZNFKsx5l7Ut1JYw4BGW2nhwPkAszTVtzbYbCXgLa3kmTGFaBs0QxAJ2kw+mV9WTWGATb00MIBZWg8nsRiMg==", "user"=>{"name"=>"b", "kana"=>"b", "email"=>"b@c.com", "company"=>"w"}, "commit"=>"Send"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('b', 'b', 'b@c.com', 'w', '2016-07-09 06:38:38', '2016-07-09 06:38:38')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.33.51/users/new
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:38:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.1ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes" for 192.168.33.1 at 2016-07-09 15:42:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::InfoController#routes as HTML
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.3ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.5.1/lib/rails/templates/rails/info/routes.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:45:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tHrgMEjjl6ZMQoxsGrrtwWhJhEj/ja/avqe+eHojEnhwPp3CD+887jtQdkxJTomlXNuFSi17s8vpHg0lVHDw/A==", "user"=>{"name"=>"s", "kana"=>"s", "email"=>"s@s", "company"=>"s"}, "commit"=>"Send"}
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (1.9ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('s', 's', 's@s', 's', '2016-07-09 06:45:40', '2016-07-09 06:45:40')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 13ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:45:40 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (2.9ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:46:25 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (3.2ms)
+Completed 200 OK in 88ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-2684c405221d2607a00f10e088dd67e53af5ace36645a8c9d2096aec7ae7351a.css?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:46:26 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/assets/users.self-2684c405221d2607a00f10e088dd67e53af5ace36645a8c9d2096aec7ae7351a.css?body=1" for 192.168.33.1 at 2016-07-09 15:48:42 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:55:30 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tHrgMEjjl6ZMQoxsGrrtwWhJhEj/ja/avqe+eHojEnhwPp3CD+887jtQdkxJTomlXNuFSi17s8vpHg0lVHDw/A==", "user"=>{"name"=>"qqqq", "kana"=>"s", "email"=>"s@s", "company"=>"s"}, "commit"=>"Send"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('qqqq', 's', 's@s', 's', '2016-07-09 06:55:30', '2016-07-09 06:55:30')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 37ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:55:30 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+Redirected to http://192.168.33.51/users/new
+Completed 302 Found in 5002ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:55:35 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (17.9ms)
+Completed 200 OK in 241ms (Views: 240.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:55:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bL90vBnu3+IHTELmWJ36aJvrkMVslYSzJ8c/yfFg8Hyo+wlOXuJ0qnBeuMYLaZ4Mr3mRx75jmKJwfoyU3zMS+A==", "user"=>{"name"=>"y", "kana"=>"y", "email"=>"y@y", "company"=>"y"}, "commit"=>"Send"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('y', 'y', 'y@y', 'y', '2016-07-09 06:55:50', '2016-07-09 06:55:50')
+  [1m[36m (1.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 4ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:55:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+Redirected to http://192.168.33.51/users/new
+Completed 302 Found in 5001ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 15:55:55 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.4ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 15:59:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I6cTB7181d3d0d8DwTxJXVd1on8VOvsj/Uw147rU1Dnn4271+nB+larDJSOSyC05Y+ejfcfM5zKq9Ya+lIc2vQ==", "user"=>{"name"=>"u", "kana"=>"u", "email"=>"u@u", "company"=>"u"}, "commit"=>"Send"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('u', 'u', 'u@u', 'u', '2016-07-09 06:59:32', '2016-07-09 06:59:32')[0m
+  [1m[35m (1.4ms)[0m  COMMIT
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 16ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 15:59:32 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (4.0ms)
+Redirected to 
+Completed 500 Internal Server Error in 5034ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/users_controller.rb:38:in `complete'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.4ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 16:00:33 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+Redirected to http://192.168.33.51/users/new
+Completed 302 Found in 5001ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.3ms)
+Completed 200 OK in 34ms (Views: 26.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/users.self-2684c405221d2607a00f10e088dd67e53af5ace36645a8c9d2096aec7ae7351a.css?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 16:00:38 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 16:03:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xzqUBw7XCGvwwuTs4ciTCDJ+5Y7AN8s7xY2SXBaltgYDfun1SdujI4fQHsyyPPdsBuzkjBLB1yqSNCEBOPZUgg==", "user"=>{"name"=>"d", "kana"=>"d", "email"=>"d@d", "company"=>"d"}, "commit"=>"Send"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('d', 'd', 'd@d', 'd', '2016-07-09 07:03:43', '2016-07-09 07:03:43')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 12ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 16:03:43 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (3.4ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:03:48 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (6.1ms)
+Completed 200 OK in 151ms (Views: 151.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.self-570992b3ad6a262de1924aa4ecc17a6f9cf45cb8fd0daaf3cfe5a9f2f3e08e2e.css?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-2684c405221d2607a00f10e088dd67e53af5ace36645a8c9d2096aec7ae7351a.css?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 16:07:50 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/users" for 192.168.33.1 at 2016-07-09 16:08:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZVblMPfkbOhn51+7u1PMzM30fBjo4yAtxPTBfeXEVB6hEpjCsOjHoBD1pZvop6io+WZ9GjoVPDyTTXIgy5e2mg==", "user"=>{"name"=>"p", "kana"=>"p", "email"=>"p@p", "company"=>"p"}, "commit"=>"Send"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `users` (`name`, `kana`, `email`, `company`, `created_at`, `updated_at`) VALUES ('p', 'p', 'p@p', 'p', '2016-07-09 07:08:01', '2016-07-09 07:08:01')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://192.168.33.51/regist_complete
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/regist_complete" for 192.168.33.1 at 2016-07-09 16:08:01 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#complete as HTML
+  Rendered users/complete.html.slim within layouts/application (3.7ms)
+Completed 200 OK in 34ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:08:06 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.33.1 at 2016-07-09 16:08:28 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.5ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 192.168.33.1 at 2016-07-09 16:08:39 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  passenger (5.0.29) src/ruby_supportlib/phusion_passenger/rack/thread_handler_extension.rb:97:in `process_request'
+  passenger (5.0.29) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:152:in `accept_and_process_next_request'
+  passenger (5.0.29) src/ruby_supportlib/phusion_passenger/request_handler/thread_handler.rb:113:in `main_loop'
+  passenger (5.0.29) src/ruby_supportlib/phusion_passenger/request_handler.rb:416:in `block (3 levels) in start_threads'
+  passenger (5.0.29) src/ruby_supportlib/phusion_passenger/utils.rb:113:in `block in create_thread_and_abort_on_exception'
+
+
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.3ms)
+
+
+Started GET "/users" for 192.168.33.1 at 2016-07-09 16:08:53 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/index.html.slim within layouts/application (11.8ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:09:03 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 21ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendered users/new.html.slim within layouts/application (1.2ms)
+Completed 200 OK in 211ms (Views: 210.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-2684c405221d2607a00f10e088dd67e53af5ace36645a8c9d2096aec7ae7351a.css?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/animate.self-570992b3ad6a262de1924aa4ecc17a6f9cf45cb8fd0daaf3cfe5a9f2f3e08e2e.css?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/users.self-3ecfde307a5c4c921efb150becfdffda0bc9341c304d0c46a07e9cd8f4273a08.js?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-377610cd7c1509e934744c810e3b4cf672dfbcacac3274e7d039827e2ae0fcc7.js?body=1" for 192.168.33.1 at 2016-07-09 16:16:09 +0900
+Cannot render console from 192.168.33.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
