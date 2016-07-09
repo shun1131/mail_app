@@ -1,27 +1,24 @@
-h1 Listing users
+section#list.animated.fadeInRight
+  .content
+    .m-t
+    h1 登録者一覧
+    .m-t-sm
+    table
+      thead
+        tr
+          th 名前
+          th かな
+          th Email
+          th 会社名
 
-table
-  thead
-    tr
-      th Name
-      th Kana
-      th Email
-      th Company
-      th
-      th
-      th
+      tbody
+        - @users.each do |user|
+          tr
+            td = user.name
+            td = user.kana
+            td = user.email
+            td = user.company
 
-  tbody
-    - @users.each do |user|
-      tr
-        td = user.name
-        td = user.kana
-        td = user.email
-        td = user.company
-        td = link_to 'Show', user
-        td = link_to 'Edit', edit_user_path(user)
-        td = link_to 'Destroy', user, data: {:confirm => 'Are you sure?'}, :method => :delete
+    br
 
-br
-
-= link_to 'New User', new_user_path
+    = link_to '登録フォームへ', new_user_path, class: 'sub-link'
