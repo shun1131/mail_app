@@ -13,8 +13,8 @@
 #### 本番用への変更箇所
 >・config/environments/development.rb
 
-　10行目の「user_name」
-　11行目の「password」
+　10行目の「user_name」、
+　11行目の「password」、
 　gmailのアドレスとパスワードを専用のものに変える
 >・public/images/Revollet_presentaion.pdf
 
