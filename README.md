@@ -9,7 +9,7 @@
 - `cd /mail_app`
 - `bundle exec rake db:migrate`
 
-##### redis インストール
+##### redis インストール、起動
 - `cd /`
 - `sudo wget http://download.redis.io/releases/redis-stable.tar.gz`
 - `sudo tar zxvf redis-stable.tar.gz`
@@ -37,7 +37,7 @@ WantedBy=multi-user.target
 - `sudo systemctl enable redis`
 
 
-##### redis　使用コマンド
+##### sidekiq　使用コマンド
 - `bundle exec sidekiq -C config/sidekiq.yml`
 
 #### 本番用への変更箇所
