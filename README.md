@@ -20,18 +20,18 @@
 - `sudo cp redis.conf /etc/redis/`
 - `sudo vi /etc/redis/redis.conf`
 - ファイル内に記述
-daemonize yes 
-logfile "/var/log/redis.log" 
+daemonize yes  
+logfile "/var/log/redis.log"  
 
 - `sudo vi /etc/systemd/system/redis.service`
 - ファイル内に記述
-[Unit] 
-Description=Load redis daemon. 
-[Service] 
-ExecStart=/usr/local/bin/redis-server /etc/redis/redis.conf 
+[Unit]  
+Description=Load redis daemon.  
+[Service]  
+ExecStart=/usr/local/bin/redis-server /etc/redis/redis.conf  
 RemainAfterExit=yes  
-[Install] 
-WantedBy=multi-user.target 
+[Install]  
+WantedBy=multi-user.target  
 
 - `sudo systemctl start redis`
 - `sudo systemctl enable redis`
