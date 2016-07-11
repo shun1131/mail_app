@@ -1,0 +1,80 @@
+# Logfile created on 2016-07-11 11:15:43 +0900 by logger.rb/47272
+No such file or directory @ rb_sysopen - /mail_app/tmp/pids/sidekiq.pid
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `initialize'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `open'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `write_pid'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:42:in `parse'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/bin/sidekiq:7:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `kernel_load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:24:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:304:in `exec'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:11:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:27:in `block in <top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/friendly_errors.rb:98:in `with_friendly_errors'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:19:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `<main>'
+No such file or directory @ rb_sysopen - /mail_app/tmp/pids/sidekiq.pid
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `initialize'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `open'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `write_pid'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:42:in `parse'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/bin/sidekiq:7:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `kernel_load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:24:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:304:in `exec'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:11:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:27:in `block in <top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/friendly_errors.rb:98:in `with_friendly_errors'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:19:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `<main>'
+No such file or directory @ rb_sysopen - /mail_app/tmp/pids/sidekiq.pid
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `initialize'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `open'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:352:in `write_pid'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/lib/sidekiq/cli.rb:42:in `parse'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sidekiq-3.3.4/bin/sidekiq:7:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/sidekiq:23:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:63:in `kernel_load'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli/exec.rb:24:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:304:in `exec'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/invocation.rb:126:in `invoke_command'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor.rb:359:in `dispatch'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/vendor/thor/lib/thor/base.rb:440:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/cli.rb:11:in `start'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:27:in `block in <top (required)>'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/lib/bundler/friendly_errors.rb:98:in `with_friendly_errors'
+/usr/local/rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.12.5/exe/bundle:19:in `<top (required)>'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `load'
+/usr/local/rbenv/versions/2.2.3/bin/bundle:23:in `<main>'
+I, [2016-07-11T11:49:48.607178 #7753]  INFO -- : Celluloid 0.17.3 is running in BACKPORTED mode. [ http://git.io/vJf3J ]
+2016-07-11T02:49:51.352Z 7753 TID-owpg77kb8 INFO: Running in ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-linux]
+2016-07-11T02:49:51.353Z 7753 TID-owpg77kb8 INFO: See LICENSE and the LGPL-3.0 for licensing details.
+2016-07-11T02:49:51.353Z 7753 TID-owpg77kb8 INFO: Upgrade to Sidekiq Pro for more features and support: http://sidekiq.org/pro
+2016-07-11T02:49:51.353Z 7753 TID-owpg77kb8 INFO: Booting Sidekiq 3.3.4 with redis options {:url=>nil}
+2016-07-11T02:49:51.427Z 7753 TID-owpgs9434 ActionMailer::DeliveryJob JID-cb3634d302d2a70c44cf480d INFO: start
+2016-07-11T02:49:51.427Z 7753 TID-owpgs9zew ActionMailer::DeliveryJob JID-8df1720bd70373882e04a7b6 INFO: start
+2016-07-11T02:49:51.428Z 7753 TID-owpgsbczc ActionMailer::DeliveryJob JID-c0659b404ce85b3be928bcf9 INFO: start
+2016-07-11T02:50:31.244Z 7753 TID-owpgsbczc ActionMailer::DeliveryJob JID-c0659b404ce85b3be928bcf9 INFO: done: 39.816 sec
+2016-07-11T02:50:32.886Z 7753 TID-owpgs9zew ActionMailer::DeliveryJob JID-8df1720bd70373882e04a7b6 INFO: done: 41.459 sec
+2016-07-11T02:50:34.558Z 7753 TID-owpgs9434 ActionMailer::DeliveryJob JID-cb3634d302d2a70c44cf480d INFO: done: 43.131 sec
+2016-07-11T02:55:56.776Z 7753 TID-owpgs9434 ActionMailer::DeliveryJob JID-6b41042ff5b764a1ec92ef61 INFO: start
+2016-07-11T02:56:33.466Z 7753 TID-owpgs9434 ActionMailer::DeliveryJob JID-6b41042ff5b764a1ec92ef61 INFO: done: 36.69 sec

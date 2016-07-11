@@ -9,6 +9,36 @@
 - `cd /mail_app`
 - `bundle exec rake db:migrate`
 
+##### redis インストール
+- `cd /`
+- `sudo wget http://download.redis.io/releases/redis-stable.tar.gz`
+- `sudo tar zxvf redis-stable.tar.gz`
+- `cd redis-stable`
+- `sudo make`
+- `sudo make install`
+- `sudo mkdir /etc/redis`
+- `sudo cp redis.conf /etc/redis/`
+- `sudo vi /etc/redis/redis.conf`
+- ファイル内に記述
+>daemonize yes
+logfile "/var/log/redis.log"
+
+- `sudo vi /etc/systemd/system/redis.service`
+- ファイル内に記述
+>[Unit]
+Description=Load redis daemon.
+[Service]
+ExecStart=/usr/local/bin/redis-server /etc/redis/redis.conf
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
+
+- `sudo systemctl start redis`
+- `sudo systemctl enable redis`
+
+
+##### redis　使用コマンド
+- `bundle exec sidekiq -C config/sidekiq.yml`
 
 #### 本番用への変更箇所
 >・config/environments/development.rb

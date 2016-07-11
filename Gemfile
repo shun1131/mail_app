@@ -32,6 +32,10 @@ gem 'unicorn'
 # slimの導入
 gem 'slim-rails'
 
+
+# 非同期処理
+gem 'sidekiq', '~> 3.3.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

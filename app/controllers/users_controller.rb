@@ -26,7 +26,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
       if @user.save
-        RegistMailer.send_when_regist(@user).deliver
+        RegistMailer.send_when_regist(@user).deliver_later
         redirect_to regist_complete_path
       else
         render :new
