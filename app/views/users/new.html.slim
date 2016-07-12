@@ -1,18 +1,20 @@
 section#contact.animated.fadeInRight
   .content
-    .m-t-sm
+    .text-right
+      p = link_to 'Japanese', url_for(params.merge(locale: 'ja')), class: 'lang-color'
+      p = link_to 'English', url_for(params.merge(locale: 'en')), class: 'lang-color'
     .logo-center
       img src="/images/logo.png" style="width:150px;"
     .m-t-s
-    h2 REVOLLET・メール送信フォーム
+    h2 #{ t '.title' }
     hr
     .m-t-sm
     p
-    | 本日はお越しいただきありがとうございます。
+    | #{ t '.comment_1' }
     br
-    | お手数ですが、下記フォームにお客様の情報をご入力ください。
+    | #{ t '.comment_2' }
     br
-    | ご登録いただいたメールアドレスへ本日のご説明内容を記したPDFファイルを送信させていただきます。
+    | #{ t '.comment_3' }
     .m-t-sm
     .center
       #form
@@ -24,12 +26,12 @@ section#contact.animated.fadeInRight
                 - @user.errors.full_messages.each do |message|
                   li = message
 
-          span お名前
+          span #{ t '.name' }
           = f.text_field :name, required: true
-          span カナ
+          span #{ t '.kana' }
           = f.text_field :kana, required: true
           span email
           = f.email_field :email, required: true
-          span 会社名
+          span #{ t '.company' }
           = f.text_field :company
           = f.submit "Send", class: 'submit'

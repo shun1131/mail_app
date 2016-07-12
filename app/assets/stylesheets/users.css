@@ -112,6 +112,10 @@ td {
   text-align: center;
 }
 
+.text-right {
+  text-align: right;
+}
+
 .m-t {
   margin-top: 70px;
 }
@@ -142,4 +146,9 @@ a {
   background:#b18e0f;
   color:#F1F1F1;
   font: 16px/16px'Bree Serif', Georgia, serif;
+}
+
+.lang-color {
+  color:#F1F1F1;
+  font-size: 18px;
 }
