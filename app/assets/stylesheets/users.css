@@ -9,7 +9,7 @@ body {
   background: url(http://img6.uploadhouse.com/fileuploads/17737/17737075bdad5cfa9423bb2c3c2beee695c72bb8.jpg);
   color: #B1B1B1;
   margin: 15px auto 0;
-  width: 500px;
+  width: 530px;
 }
 #contact {
   overflow: auto;
@@ -103,12 +103,25 @@ td {
   text-align: center;
 }
 
+.center {
+  position: relative;
+  left: 70px;
+}
+
+.logo-center {
+  text-align: center;
+}
+
 .m-t {
-  margin-top: 110px;
+  margin-top: 70px;
 }
 
 .m-t-sm {
   margin-top: 40px;
+}
+
+.m-t-s {
+  margin-top: 20px;
 }
 
 .m-t-m {

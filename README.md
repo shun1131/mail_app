@@ -19,12 +19,12 @@
 - `sudo mkdir /etc/redis`
 - `sudo cp redis.conf /etc/redis/`
 - `sudo vi /etc/redis/redis.conf`
-- ファイル内に記述
+- ファイル内に記述  
 daemonize yes  
 logfile "/var/log/redis.log"  
 
 - `sudo vi /etc/systemd/system/redis.service`
-- ファイル内に記述
+- ファイル内に記述  
 [Unit]  
 Description=Load redis daemon.  
 [Service]  

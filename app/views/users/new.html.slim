@@ -1,6 +1,9 @@
 section#contact.animated.fadeInRight
   .content
-    .m-t
+    .m-t-sm
+    .logo-center
+      img src="/images/logo.png" style="width:150px;"
+    .m-t-s
     h2 REVOLLET・メール送信フォーム
     hr
     .m-t-sm
@@ -11,21 +14,22 @@ section#contact.animated.fadeInRight
     br
     | ご登録いただいたメールアドレスへ本日のご説明内容を記したPDFファイルを送信させていただきます。
     .m-t-sm
-    #form
-      = form_for @user do |f|
-        - if @user.errors.any?
-          #error_explanation
-            h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
-            ul
-              - @user.errors.full_messages.each do |message|
-                li = message
+    .center
+      #form
+        = form_for @user do |f|
+          - if @user.errors.any?
+            #error_explanation
+              h2 = "#{pluralize(@user.errors.count, "error")} prohibited this user from being saved:"
+              ul
+                - @user.errors.full_messages.each do |message|
+                  li = message
 
-        span お名前
-        = f.text_field :name, required: true
-        span カナ
-        = f.text_field :kana, required: true
-        span email
-        = f.email_field :email, required: true
-        span 会社名
-        = f.text_field :company
-        = f.submit "Send", class: 'submit'
+          span お名前
+          = f.text_field :name, required: true
+          span カナ
+          = f.text_field :kana, required: true
+          span email
+          = f.email_field :email, required: true
+          span 会社名
+          = f.text_field :company
+          = f.submit "Send", class: 'submit'
