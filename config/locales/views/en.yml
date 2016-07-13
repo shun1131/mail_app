@@ -2,13 +2,13 @@ en:
   users:
     new:
       title:      REVOLLET ・ Mail Form
-      comment_1:  本日はお越しいただきありがとうございます。
-      comment_2:  お手数ですが、下記フォームにお客様の情報をご入力ください。
-      comment_3:  ご登録いただいたメールアドレスへ本日のご説明内容を記したPDFファイルを送信させていただきます。
-      name:       お名前
-      kana:       カナ
-      company:    会社名
+      comment_1:  Thank you for visiting our website.
+      comment_2:  Please fill in your details in the form below.
+      comment_3:  A PDF file will be sent to your email address and please make sure to read  the introduction of our products and services.
+      name:       Name
+      kana:       Kana
+      company:    Company
     complete:
-      title:      登録完了
-      comment_1:  ご登録ありがとうございました。
-      comment_2:  お送りしたメールのご確認をお願い致します。
+      title:      Successfully Registered
+      comment_1:  Thank you for your registration!
+      comment_2:  Please make sure to read emails from us. 
