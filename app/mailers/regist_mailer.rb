@@ -8,7 +8,7 @@ class RegistMailer < ApplicationMailer
   def send_when_regist(user)
     @user = user
 
-    attachments["Revollet_presentaion.pdf"] = File.read("public/images/Revollet_presentaion.pdf")
+    # attachments["Revollet_presentaion.pdf"] = File.read("public/images/Revollet_presentaion.pdf")
 
     mail to:      @user.email,
          subject: '[Revollet] ご登録ありがとうございます'
